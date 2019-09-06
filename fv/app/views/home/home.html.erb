@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>FairValue</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="plotly-latest.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+
+    <div id="parent">
+
+    <div id='container' class="grid-container">
+
+      <div id='header' class="grid-item">
+
+
+        <div class="App">
+
+          <h1 id="fName">FairValue</h1>
+          <%= image_tag("house.svg", :alt => "rss feed", :id => 'house') %>
+
+        </div>
+      </div>
+
+      <div id='middle' class="grid-item">
+        <div id="btn1" class="plus-btn-pos">
+      <div id="btn11" class="plus-btn">
+        <div class="r1"></div>
+        <div class="r2"></div>
+        </div>
+        </div>
+        <div id="searchba">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+          <form action="">
+          <input type="search" placeholder="Type a Company Name">
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+      </div>
+
+      <div id='bottom' class="grid-item">
+
+        <div id="menucont" class="menu-container">
+          <div class="menu-sliders"></div>
+          <div class="menu-sliders"></div>
+          <div class="menu-sliders"></div>
+          <div class="menu">
+
+            <ul>
+              <li>
+                <%= image_tag("house.svg", :alt => "rss feed", :id => 'house2') %>
+                <a>Home<a>
+
+              </li>
+              <li>
+                <%= image_tag("person.svg", :alt => "rss feed", :id => 'about2') %>
+                <a>About</a>
+              </li>
+              <li>
+                <%= image_tag("github.svg", :alt => "rss feed", :id => 'gitclick') %>
+                <a>Github</a>
+              </li>
+              <li>
+                <%= image_tag("api.svg", :alt => "rss feed", :id => 'api1') %>
+
+                <a id="api">API Download</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="middy">
+
+        <p id="compnametop">Amazon.com, Inc.</p>
+        <p id="nasdaq">NASDAQ: </p>
+        <p id="compsymbol"> AMZN </p>
+        <p id="stockpriceclose">$1,889.98</p>
+        <p id="stockpricetext">PRICE</p>
+        <p id="USD">USD</p>
+        <p id="changedollar">-9.89</p>
+        <p id="changeTEXT">DAY CHANGE</p>
+        <p id="changepercent">(0.52%)</p>
+        <%= image_tag("amz.png", :alt => "rss feed", :id => 'logo') %>
+        <%= image_tag("add.png", :alt => "rss feed", :id => 'add') %>
+        <%= image_tag("adown.png", :alt => "rss feed", :id => 'arrowdown') %>
+
+        <p id="FairVal">$1,989.98</p>
+        <p id="FairValtext">FAIR VALUE</p>
+        <p id="changefairval">9.3%</p>
+        <%= image_tag("question.png", :alt => "rss feed", :id => 'question') %>
+
+        </div>
+
+
+        <div id="test" class="test">
+          <div id="test2">
+
+          </div>
+        </div>
+
+        <div id="graphdiv" class="graphdiv">
+            <div id="graphdivinside">
+            </div>
+            <p id="pricehist">AMZN Stock Chart</p>
+        </div>
+
+
+
+        <div id="leaderdiv" class="leaderdiv">
+
+          <p id="toplead"> Leaderboard</p>
+          <table id="ltable" style="width:100%">
+            <tr class="tr2">
+              <th>#</th>
+              <th class="symb">Company</th>
+              <th>Discount-Value</th>
+              <th>Fair-Value</th>
+            </tr>
+  <tr id="1" class="tr">
+    <th>1</th>
+    <th id='lcompname' class="symb"><%@market.name%></th>
+    <th>20%</th>
+    <th>$1,934</th>
+  </tr>
+  <tr class="tr">
+    <td>2</td>
+    <td class="symb">Google</td>
+    <td>30%</td>
+    <td>$1,280</td>
+  </tr>
+
+</table>
+        </div>
+
+
+        <div id="financial" class="financial">
+
+          <p id="fin">Financial Data</p>
+          <table style="width:100%">
+
+            <tr>
+              <th>(USD)</th>
+              <th id="month">May 2019</th>
+              <td>Y/Y</td>
+            </tr>
+<tr>
+  <th>Revenue</th>
+  <th>59.7B</th>
+  <td>3.56B</td>
+</tr>
+<tr>
+  <td>Net Income</td>
+  <td>3.56B</td>
+  <td>3.56B</td>
+</tr>
+<tr>
+  <td>Net Profit Margin</td>
+  <td>190B</td>
+  <td>2%</td>
+</tr>
+<tr>
+  <td>Asset-Turnover-Ratio</td>
+  <td>8.01</td>
+  <td>19%</td>
+</tr>
+<tr>
+  <td>Market Cap</td>
+  <td>5.01</td>
+  <td>5%</td>
+</tr>
+</table>
+        </div>
+
+        <div id="performance" class="performance">
+
+          <p id="fin1"></p>
+          <table style="width:100%">
+
+            <tr>
+              <th>(USD)</th>
+              <th id="month">May 2019</th>
+              <td>Y/Y</td>
+            </tr>
+<tr>
+  <th>Debt-To-Equity</th>
+  <th>6.01</th>
+  <td>10%</td>
+</tr>
+<tr>
+  <td>Return-On-Equity</td>
+  <td>10.2</td>
+  <td>34%</td>
+</tr>
+<tr>
+  <td>Earnings Per Share</td>
+  <td>19.2</td>
+  <td>2%</td>
+</tr>
+<tr>
+  <td>Price-To-Book</td>
+  <td>8.01</td>
+  <td>19%</td>
+</tr>
+<tr>
+  <td>Price-To-Earnings</td>
+  <td>5.01</td>
+  <td>5%</td>
+</tr>
+</table>
+        </div>
+
+
+
+      </div>
+
+      <div id='bottomright' class="grid-item">
+
+      </div>
+      <div id="footer" class="grid-item">
+        <p id="foottext"> FairValue by: Zayne S
+      </div>
+      <div id="footer2" class="grid-item">
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="home.js"></script>
+  <script src="/assets/home.js?body=1"></script>
+</html>

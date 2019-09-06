@@ -1,0 +1,417 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/zaynsagar/.nvm/v0.10.31/bin/node',
+1 verbose cli   '/Users/zaynsagar/.nvm/v0.10.31/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mdbootstrap' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'mdbootstrap', null ]
+6 verbose cache add name=undefined spec="mdbootstrap" args=["mdbootstrap",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mdbootstrap',
+7 verbose parsed url   path: 'mdbootstrap',
+7 verbose parsed url   href: 'mdbootstrap' }
+8 silly lockFile 9b4343d4-mdbootstrap mdbootstrap
+9 verbose lock mdbootstrap /Users/zaynsagar/.npm/9b4343d4-mdbootstrap.lock
+10 silly lockFile 9b4343d4-mdbootstrap mdbootstrap
+11 silly lockFile 9b4343d4-mdbootstrap mdbootstrap
+12 verbose addNamed [ 'mdbootstrap', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 67d3c391-mdbootstrap mdbootstrap@
+15 verbose lock mdbootstrap@ /Users/zaynsagar/.npm/67d3c391-mdbootstrap.lock
+16 silly addNameRange { name: 'mdbootstrap', range: '*', hasData: false }
+17 verbose request where is /mdbootstrap
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f97d1a6a096875fa
+20 verbose url raw /mdbootstrap
+21 verbose url resolving [ 'https://registry.npmjs.org/', './mdbootstrap' ]
+22 verbose url resolved https://registry.npmjs.org/mdbootstrap
+23 verbose request where is https://registry.npmjs.org/mdbootstrap
+24 info trying registry request attempt 1 at 12:17:01
+25 http GET https://registry.npmjs.org/mdbootstrap
+26 http 200 https://registry.npmjs.org/mdbootstrap
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Mon, 02 Sep 2019 19:17:01 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'transfer-encoding': 'chunked',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'set-cookie': [ '__cfduid=d26d9605e98df70a47c140ac08094fc8d1567451821; expires=Tue, 01-Sep-20 19:17:01 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+27 silly registry.get     'cf-cache-status': 'MISS',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'cf-ray': '5101d25cdb0fadc8-SMF',
+27 silly registry.get     etag: 'W/"cbcad1152bb3d951845dd48424cbfbe2"',
+27 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly registry.get     'last-modified': 'Mon, 02 Sep 2019 10:59:10 GMT',
+27 silly registry.get     vary: 'accept-encoding, accept',
+27 silly registry.get     'x-amz-meta-rev': '56-d2f341c676a2fec10adbf6dd3803055c',
+27 silly registry.get     server: 'cloudflare',
+27 silly registry.get     'content-encoding': 'gzip' } ]
+28 silly addNameRange number 2 { name: 'mdbootstrap', range: '*', hasData: true }
+29 silly addNameRange versions [ 'mdbootstrap',
+29 silly addNameRange   [ '4.1.1',
+29 silly addNameRange     '4.2.0',
+29 silly addNameRange     '4.3.0',
+29 silly addNameRange     '4.3.1',
+29 silly addNameRange     '4.3.2',
+29 silly addNameRange     '4.4.0',
+29 silly addNameRange     '4.4.1',
+29 silly addNameRange     '4.4.2',
+29 silly addNameRange     '4.4.3',
+29 silly addNameRange     '4.4.4',
+29 silly addNameRange     '4.5.0',
+29 silly addNameRange     '4.5.1',
+29 silly addNameRange     '4.5.2',
+29 silly addNameRange     '4.5.3',
+29 silly addNameRange     '4.5.4',
+29 silly addNameRange     '4.5.5',
+29 silly addNameRange     '4.5.6',
+29 silly addNameRange     '4.5.7',
+29 silly addNameRange     '4.5.8',
+29 silly addNameRange     '4.5.9',
+29 silly addNameRange     '4.5.10',
+29 silly addNameRange     '4.5.11',
+29 silly addNameRange     '4.5.12',
+29 silly addNameRange     '4.5.13',
+29 silly addNameRange     '4.5.14',
+29 silly addNameRange     '4.5.15',
+29 silly addNameRange     '4.5.16',
+29 silly addNameRange     '4.6.0',
+29 silly addNameRange     '4.6.1',
+29 silly addNameRange     '4.7.0',
+29 silly addNameRange     '4.7.1',
+29 silly addNameRange     '4.7.2',
+29 silly addNameRange     '4.7.3',
+29 silly addNameRange     '4.7.4',
+29 silly addNameRange     '4.7.5',
+29 silly addNameRange     '4.7.6',
+29 silly addNameRange     '4.7.7',
+29 silly addNameRange     '4.8.0',
+29 silly addNameRange     '4.8.1',
+29 silly addNameRange     '4.8.2',
+29 silly addNameRange     '4.8.3',
+29 silly addNameRange     '4.8.5',
+29 silly addNameRange     '4.8.6',
+29 silly addNameRange     '4.8.7',
+29 silly addNameRange     '4.8.8',
+29 silly addNameRange     '4.8.9' ] ]
+30 verbose addNamed [ 'mdbootstrap', '4.8.9' ]
+31 verbose addNamed [ '4.8.9', '4.8.9' ]
+32 silly lockFile dd7c0ae8-mdbootstrap-4-8-9 mdbootstrap@4.8.9
+33 verbose lock mdbootstrap@4.8.9 /Users/zaynsagar/.npm/dd7c0ae8-mdbootstrap-4-8-9.lock
+34 silly lockFile 46c7201f-dbootstrap-mdbootstrap-4-8-9-tgz https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz
+35 verbose lock https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz /Users/zaynsagar/.npm/46c7201f-dbootstrap-mdbootstrap-4-8-9-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz',
+36 verbose addRemoteTarball   'f614fb687f0c3765ade905d9d088102f3497b3f5' ]
+37 info retry fetch attempt 1 at 12:17:01
+38 verbose fetch to= /var/folders/zt/q4syrfxs68v0_w1tvjb1z9xm0000gn/T/npm-33970-i7EqdTOr/registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz
+39 http GET https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz
+40 http 200 https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz
+41 silly lockFile 46c7201f-dbootstrap-mdbootstrap-4-8-9-tgz https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz
+42 silly lockFile 46c7201f-dbootstrap-mdbootstrap-4-8-9-tgz https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz
+43 silly lockFile dd7c0ae8-mdbootstrap-4-8-9 mdbootstrap@4.8.9
+44 silly lockFile dd7c0ae8-mdbootstrap-4-8-9 mdbootstrap@4.8.9
+45 silly lockFile 67d3c391-mdbootstrap mdbootstrap@
+46 silly lockFile 67d3c391-mdbootstrap mdbootstrap@
+47 silly resolved [ { name: 'mdbootstrap',
+47 silly resolved     version: '4.8.9',
+47 silly resolved     main: 'js/mdb.js',
+47 silly resolved     scripts: { 'js-compile-plugins': 'babel --presets env js/src/ --out-dir js/dist/' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'http://git.mdbootstrap.com/mdb/jquery/jq-gulp.git' },
+47 silly resolved     author: { name: 'MDBootstrap' },
+47 silly resolved     license: 'MIT',
+47 silly resolved     devDependencies:
+47 silly resolved      { 'babel-cli': '^6.26.0',
+47 silly resolved        'babel-eslint': '^8.1.2',
+47 silly resolved        'babel-preset-env': '^1.6.1',
+47 silly resolved        'browser-sync': '^2.23.5',
+47 silly resolved        gulp: '^3.9.1',
+47 silly resolved        'gulp-autoprefixer': '^4.1.0',
+47 silly resolved        'gulp-concat': '^2.6.1',
+47 silly resolved        'gulp-cssmin': '^0.2.0',
+47 silly resolved        'gulp-imagemin': '^4.1.0',
+47 silly resolved        'gulp-minify': '^2.1.0',
+47 silly resolved        'gulp-rename': '^1.2.2',
+47 silly resolved        'gulp-sass': '^3.1.0' },
+47 silly resolved     dependencies: { '@babel/core': '^7.3.3' },
+47 silly resolved     gitHead: 'c4866a2f3bbead850d983308181f5be2dca281cf',
+47 silly resolved     description: '<p align="center">   <a href="https://mdbootstrap.com/docs/jquery/getting-started/download/">     <img src="https://mdbootstrap.com/img/Marketing/general/logo/medium/mdb-r.png">   </a> </p>',
+47 silly resolved     _id: 'mdbootstrap@4.8.9',
+47 silly resolved     _nodeVersion: '11.12.0',
+47 silly resolved     _npmVersion: '6.9.0',
+47 silly resolved     dist:
+47 silly resolved      { integrity: 'sha512-KKj3Qsh1ZFII6NBBaD6yQyPH8V5BmJD795Wo//aAVm6CPY9sounTpnUMn7Oc9vnUfPRfvFhAcgzR416rOcDe/A==',
+47 silly resolved        shasum: 'f614fb687f0c3765ade905d9d088102f3497b3f5',
+47 silly resolved        tarball: 'https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz',
+47 silly resolved        fileCount: 143,
+47 silly resolved        unpackedSize: 5866385,
+47 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbPX7CRA9TVsSAnZWagAAA4AP/08e6BsFdm0cA4b7iNDL\nX5cQZgpP/t+M459GntGr9+/ey3QNNHXu1G00iruyarBFrDD0GwqWBZFB1ATC\ng/7zyZbkQVqDB6j7eJVtVBiDbSCsWxmCLEEmJf5IgITDnEfWmoDZnRIj+yC2\nrR+Pvb9gSaaXglSoeGgIGT+h+kF9cIQs5D8a8zyz5eACpNjBbWiV5fE+DKbE\nH+P9OYe52D61bjXlFHi9lBA9d1oT2KdEMVWpMYU8LkcHp+48B+RnSGA0f9hd\nN1YC+Z2yAePoEAEHCVXNRBjGLHKyhssHliqb7koVdInEYrVluSLaHqr+U42q\nI0QUIJRjASWILHwoKBDKAj9EGYJPW8ri+2jxQNcaVLMyJ/qeqexY3S0B6pJB\n/NCcGiB5wJJN+atHMpoMy58HSqUIlpABBLEqkr9nbkGhC8edVYvr7rxXWpjT\nxfENJ1uR1GtxFRNWLyQb2a7WPjzZhWdLC8Cqt8I7akPGHj2y3AF+uQ7R+iCQ\nu4aFcEsj2uXlTORuAOcrFac6izV/dwDPQI3OjO1k9RX7zhGAEdbrxQ4yBTNw\nYqExLOZaaJ6hWRYVwy/oMI6MUCQYDs4YG63AZzSLjBhYh/zemaERnQPY/PL4\nFcNknUiWwCOygYkBDsL7neL+Egua8k2ZmKDPPRu+sINCt6c/Gcsl8tdOUGU1\njm4m\r\n=Jam+\r\n-----END PGP SIGNATURE-----\r\n' },
+47 silly resolved     maintainers: [ [Object], [Object] ],
+47 silly resolved     _npmUser: { name: 'mdbootstrap', email: 'support@mdbootstrap.com' },
+47 silly resolved     directories: {},
+47 silly resolved     _npmOperationalInternal:
+47 silly resolved      { host: 's3://npm-registry-packages',
+47 silly resolved        tmp: 'tmp/mdbootstrap_4.8.9_1567421946620_0.20558983155425548' },
+47 silly resolved     _hasShrinkwrap: false,
+47 silly resolved     _shasum: 'f614fb687f0c3765ade905d9d088102f3497b3f5',
+47 silly resolved     _from: 'mdbootstrap@',
+47 silly resolved     _resolved: 'https://registry.npmjs.org/mdbootstrap/-/mdbootstrap-4.8.9.tgz' } ]
+48 info install mdbootstrap@4.8.9 into /Users/zaynsagar/the_odin_project/stockvalue/fv/fv
+49 info installOne mdbootstrap@4.8.9
+50 verbose node_modules/mdbootstrap unbuild
+51 verbose tar unpack /Users/zaynsagar/.npm/mdbootstrap/4.8.9/package.tgz
+52 silly lockFile c0a08ee4-e-fv-fv-node-modules-mdbootstrap tar:///Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules/mdbootstrap
+53 verbose lock tar:///Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules/mdbootstrap /Users/zaynsagar/.npm/c0a08ee4-e-fv-fv-node-modules-mdbootstrap.lock
+54 silly lockFile c49d21d6-pm-mdbootstrap-4-8-9-package-tgz tar:///Users/zaynsagar/.npm/mdbootstrap/4.8.9/package.tgz
+55 verbose lock tar:///Users/zaynsagar/.npm/mdbootstrap/4.8.9/package.tgz /Users/zaynsagar/.npm/c49d21d6-pm-mdbootstrap-4-8-9-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+59 silly gunzTarPerm extractEntry CONTRIBUTING.md
+60 silly gunzTarPerm extractEntry index.html
+61 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+62 silly gunzTarPerm extractEntry License.pdf
+63 silly gunzTarPerm extractEntry license.txt
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry README.txt
+66 silly gunzTarPerm extractEntry Useful_Resources.pdf
+67 silly gunzTarPerm extractEntry css/addons/datatables-select.css
+68 silly gunzTarPerm extractEntry css/addons/datatables-select.min.css
+69 silly gunzTarPerm extractEntry css/addons/datatables.css
+70 silly gunzTarPerm extractEntry css/addons/datatables.min.css
+71 silly gunzTarPerm extractEntry css/addons/directives.css
+72 silly gunzTarPerm extractEntry css/addons/directives.min.css
+73 silly gunzTarPerm extractEntry css/addons/flag.css
+74 silly gunzTarPerm extractEntry css/addons/flag.min.css
+75 silly gunzTarPerm extractEntry css/addons/rating.css
+76 silly gunzTarPerm extractEntry css/addons/rating.min.css
+77 silly gunzTarPerm extractEntry css/addons/zmd.hierarchical-display.css
+78 silly gunzTarPerm extractEntry css/addons/zmd.hierarchical-display.min.css
+79 silly gunzTarPerm extractEntry css/bootstrap.css
+80 silly gunzTarPerm extractEntry css/bootstrap.min.css
+81 silly gunzTarPerm extractEntry css/mdb.css
+82 silly gunzTarPerm extractEntry css/mdb.lite.css
+83 silly gunzTarPerm extractEntry css/mdb.lite.min.css
+84 silly gunzTarPerm extractEntry css/mdb.min.css
+85 silly gunzTarPerm extractEntry css/modules/animations-extended.css
+86 silly gunzTarPerm extractEntry css/modules/animations-extended.min.css
+87 silly gunzTarPerm extractEntry css/style.css
+88 silly gunzTarPerm extractEntry css/style.min.css
+89 silly gunzTarPerm extractEntry font/roboto/Roboto-Bold.eot
+90 silly gunzTarPerm extractEntry font/roboto/Roboto-Bold.ttf
+91 silly gunzTarPerm extractEntry font/roboto/Roboto-Bold.woff
+92 silly gunzTarPerm extractEntry font/roboto/Roboto-Bold.woff2
+93 silly gunzTarPerm extractEntry font/roboto/Roboto-Light.eot
+94 silly gunzTarPerm extractEntry font/roboto/Roboto-Light.ttf
+95 silly gunzTarPerm extractEntry font/roboto/Roboto-Light.woff
+96 silly gunzTarPerm extractEntry font/roboto/Roboto-Light.woff2
+97 silly gunzTarPerm extractEntry font/roboto/Roboto-Medium.eot
+98 silly gunzTarPerm extractEntry font/roboto/Roboto-Medium.ttf
+99 silly gunzTarPerm extractEntry font/roboto/Roboto-Medium.woff
+100 silly gunzTarPerm extractEntry font/roboto/Roboto-Medium.woff2
+101 silly gunzTarPerm extractEntry font/roboto/Roboto-Regular.eot
+102 silly gunzTarPerm extractEntry font/roboto/Roboto-Regular.ttf
+103 silly gunzTarPerm extractEntry font/roboto/Roboto-Regular.woff
+104 silly gunzTarPerm extractEntry font/roboto/Roboto-Regular.woff2
+105 silly gunzTarPerm extractEntry font/roboto/Roboto-Thin.eot
+106 silly gunzTarPerm extractEntry font/roboto/Roboto-Thin.ttf
+107 silly gunzTarPerm extractEntry font/roboto/Roboto-Thin.woff
+108 silly gunzTarPerm extractEntry font/roboto/Roboto-Thin.woff2
+109 silly gunzTarPerm extractEntry img/flags.png
+110 silly gunzTarPerm extractEntry img/lightbox/default-skin.png
+111 silly gunzTarPerm extractEntry img/lightbox/default-skin.svg
+112 silly gunzTarPerm extractEntry img/lightbox/preloader.gif
+113 silly gunzTarPerm extractEntry img/overlays/01.png
+114 silly gunzTarPerm extractEntry img/overlays/02.png
+115 silly gunzTarPerm extractEntry img/overlays/03.png
+116 silly gunzTarPerm extractEntry img/overlays/04.png
+117 silly gunzTarPerm extractEntry img/overlays/05.png
+118 silly gunzTarPerm extractEntry img/overlays/06.png
+119 silly gunzTarPerm extractEntry img/overlays/07.png
+120 silly gunzTarPerm extractEntry img/overlays/08.png
+121 silly gunzTarPerm extractEntry img/overlays/09.png
+122 silly gunzTarPerm extractEntry img/sample.jpg
+123 silly gunzTarPerm extractEntry img/svg/arrow_left.svg
+124 silly gunzTarPerm extractEntry img/svg/arrow_right.svg
+125 silly gunzTarPerm extractEntry img/svg/flags.png
+126 silly gunzTarPerm extractEntry js/addons/datatables-select.js
+127 silly gunzTarPerm extractEntry js/addons/datatables-select.min.js
+128 silly gunzTarPerm extractEntry js/addons/datatables.js
+129 silly gunzTarPerm extractEntry js/addons/datatables.min.js
+130 silly gunzTarPerm extractEntry js/addons/imagesloaded.pkgd.min.js
+131 silly gunzTarPerm extractEntry js/addons/jquery.zmd.hierarchical-display.js
+132 silly gunzTarPerm extractEntry js/addons/jquery.zmd.hierarchical-display.min.js
+133 silly gunzTarPerm extractEntry js/addons/masonry.pkgd.min.js
+134 silly gunzTarPerm extractEntry js/addons/progressBar.js
+135 silly gunzTarPerm extractEntry js/addons/progressBar.min.js
+136 silly gunzTarPerm extractEntry js/addons/rating.js
+137 silly gunzTarPerm extractEntry js/addons/rating.min.js
+138 silly gunzTarPerm extractEntry js/bootstrap.js
+139 silly gunzTarPerm extractEntry js/bootstrap.min.js
+140 silly gunzTarPerm extractEntry js/jquery-3.4.1.min.js
+141 silly gunzTarPerm extractEntry js/mdb.js
+142 silly gunzTarPerm extractEntry js/mdb.min.js
+143 silly gunzTarPerm extractEntry js/modules/bs-custom-file-input.js
+144 silly gunzTarPerm extractEntry js/modules/chart.js
+145 silly gunzTarPerm extractEntry js/modules/default-file-input.js
+146 silly gunzTarPerm extractEntry js/modules/enhanced-modals.js
+147 silly gunzTarPerm extractEntry js/modules/forms-free.js
+148 silly gunzTarPerm extractEntry js/modules/jquery.easing.js
+149 silly gunzTarPerm extractEntry js/modules/scrolling-navbar.js
+150 silly gunzTarPerm extractEntry js/modules/treeview.js
+151 silly gunzTarPerm extractEntry js/modules/velocity.js
+152 silly gunzTarPerm extractEntry js/modules/velocity.min.js
+153 silly gunzTarPerm extractEntry js/modules/waves.js
+154 silly gunzTarPerm extractEntry js/modules/wow.js
+155 silly gunzTarPerm extractEntry js/popper.min.js
+156 silly gunzTarPerm extractEntry scss/_custom-styles.scss
+157 silly gunzTarPerm extractEntry scss/_custom-variables.scss
+158 silly gunzTarPerm extractEntry scss/addons/_datatables-select.scss
+159 silly gunzTarPerm extractEntry scss/addons/_datatables.scss
+160 silly gunzTarPerm extractEntry scss/addons/_directives.scss
+161 silly gunzTarPerm extractEntry scss/addons/_flags.scss
+162 silly gunzTarPerm extractEntry scss/addons/_hierarchical-display.scss
+163 silly gunzTarPerm extractEntry scss/addons/_rating.scss
+164 silly gunzTarPerm extractEntry scss/core/_colors.scss
+165 silly gunzTarPerm extractEntry scss/core/_global.scss
+166 silly gunzTarPerm extractEntry scss/core/_helpers.scss
+167 silly gunzTarPerm extractEntry scss/core/_masks.scss
+168 silly gunzTarPerm extractEntry scss/core/_mixins.scss
+169 silly gunzTarPerm extractEntry scss/core/_typography.scss
+170 silly gunzTarPerm extractEntry scss/core/_variables.scss
+171 silly gunzTarPerm extractEntry scss/core/_waves.scss
+172 silly gunzTarPerm extractEntry scss/core/bootstrap/_functions.scss
+173 silly gunzTarPerm extractEntry scss/core/bootstrap/_rfs.scss
+174 silly gunzTarPerm extractEntry scss/core/bootstrap/_variables.scss
+175 silly gunzTarPerm extractEntry scss/free/_animations-basic.scss
+176 silly gunzTarPerm extractEntry scss/free/_badges.scss
+177 silly gunzTarPerm extractEntry scss/free/_buttons.scss
+178 silly gunzTarPerm extractEntry scss/free/_cards.scss
+179 silly gunzTarPerm extractEntry scss/free/_carousels.scss
+180 silly gunzTarPerm extractEntry scss/free/_depreciated.scss
+181 silly gunzTarPerm extractEntry scss/free/_dropdowns.scss
+182 silly gunzTarPerm extractEntry scss/free/_footers.scss
+183 silly gunzTarPerm extractEntry scss/free/_forms.scss
+184 silly gunzTarPerm extractEntry scss/free/_input-group.scss
+185 silly gunzTarPerm extractEntry scss/free/_list-group.scss
+186 silly gunzTarPerm extractEntry scss/free/_loader.scss
+187 silly gunzTarPerm extractEntry scss/free/_modals.scss
+188 silly gunzTarPerm extractEntry scss/free/_msc.scss
+189 silly gunzTarPerm extractEntry scss/free/_navbars.scss
+190 silly gunzTarPerm extractEntry scss/free/_pagination.scss
+191 silly gunzTarPerm extractEntry scss/free/_steppers.scss
+192 silly gunzTarPerm extractEntry scss/free/_switch.scss
+193 silly gunzTarPerm extractEntry scss/free/_tables.scss
+194 silly gunzTarPerm extractEntry scss/free/_treeview.scss
+195 silly gunzTarPerm extractEntry scss/free/modules/animations-extended/_module.scss
+196 silly gunzTarPerm extractEntry scss/free/modules/animations-extended/animations-extended.scss
+197 silly gunzTarPerm extractEntry scss/mdb.lite.scss
+198 silly gunzTarPerm extractEntry scss/mdb.scss
+199 silly gunzTarPerm extractEntry scss/style.scss
+200 silly lockFile c0a08ee4-e-fv-fv-node-modules-mdbootstrap tar:///Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules/mdbootstrap
+201 silly lockFile c0a08ee4-e-fv-fv-node-modules-mdbootstrap tar:///Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules/mdbootstrap
+202 silly lockFile c49d21d6-pm-mdbootstrap-4-8-9-package-tgz tar:///Users/zaynsagar/.npm/mdbootstrap/4.8.9/package.tgz
+203 silly lockFile c49d21d6-pm-mdbootstrap-4-8-9-package-tgz tar:///Users/zaynsagar/.npm/mdbootstrap/4.8.9/package.tgz
+204 info preinstall mdbootstrap@4.8.9
+205 verbose readDependencies using package.json deps
+206 verbose readDependencies using package.json deps
+207 verbose cache add [ '@babel/core@^7.3.3', null ]
+208 verbose cache add name=undefined spec="@babel/core@^7.3.3" args=["@babel/core@^7.3.3",null]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: '@babel/core@^7.3.3',
+209 verbose parsed url   path: '@babel/core@^7.3.3',
+209 verbose parsed url   href: '@babel/core@^7.3.3' }
+210 verbose cache add name="" spec="babel/core@^7.3.3" args=["","babel/core@^7.3.3"]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: 'babel/core@^7.3.3',
+211 verbose parsed url   path: 'babel/core@^7.3.3',
+211 verbose parsed url   href: 'babel/core@^7.3.3' }
+212 verbose cache add name="babel/core" spec="^7.3.3" args=["babel/core","^7.3.3"]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: '^7.3.3',
+213 verbose parsed url   path: '^7.3.3',
+213 verbose parsed url   href: '^7.3.3' }
+214 verbose addNamed [ 'babel/core', '^7.3.3' ]
+215 verbose addNamed [ null, '>=7.3.3-0 <8.0.0-0' ]
+216 silly lockFile be6b69e9-babel-core-7-3-3 babel/core@^7.3.3
+217 verbose lock babel/core@^7.3.3 /Users/zaynsagar/.npm/be6b69e9-babel-core-7-3-3.lock
+218 silly addNameRange { name: 'babel/core',
+218 silly addNameRange   range: '>=7.3.3-0 <8.0.0-0',
+218 silly addNameRange   hasData: false }
+219 verbose request where is /babel/core
+220 verbose request registry https://registry.npmjs.org/
+221 verbose url raw /babel/core
+222 verbose url resolving [ 'https://registry.npmjs.org/', './babel/core' ]
+223 verbose url resolved https://registry.npmjs.org/babel/core
+224 verbose request where is https://registry.npmjs.org/babel/core
+225 info trying registry request attempt 1 at 12:17:03
+226 http GET https://registry.npmjs.org/babel/core
+227 http 405 https://registry.npmjs.org/babel/core
+228 silly registry.get cb [ 405,
+228 silly registry.get   { date: 'Mon, 02 Sep 2019 19:17:03 GMT',
+228 silly registry.get     'content-type': 'application/json',
+228 silly registry.get     'content-length': '63',
+228 silly registry.get     connection: 'keep-alive',
+228 silly registry.get     'set-cookie': [ '__cfduid=dd30fc9865b4ab7cba4f1a69404713dcd1567451823; expires=Tue, 01-Sep-20 19:17:03 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+228 silly registry.get     'cf-ray': '5101d2693b53adf2-SMF',
+228 silly registry.get     allow: 'PUT',
+228 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+228 silly registry.get     vary: 'Accept-Encoding',
+228 silly registry.get     server: 'cloudflare' } ]
+229 silly lockFile be6b69e9-babel-core-7-3-3 babel/core@^7.3.3
+230 silly lockFile be6b69e9-babel-core-7-3-3 babel/core@^7.3.3
+231 verbose about to build /Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules/mdbootstrap
+232 verbose node_modules/mdbootstrap unbuild
+233 info preuninstall mdbootstrap@4.8.9
+234 info uninstall mdbootstrap@4.8.9
+235 verbose true,/Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules,/Users/zaynsagar/the_odin_project/stockvalue/fv/fv/node_modules unbuild mdbootstrap@4.8.9
+236 info postuninstall mdbootstrap@4.8.9
+237 error Error: Method Not Allowed
+237 error     at errorResponse (/Users/zaynsagar/.nvm/v0.10.31/lib/node_modules/npm/lib/cache/add-named.js:260:10)
+237 error     at /Users/zaynsagar/.nvm/v0.10.31/lib/node_modules/npm/lib/cache/add-named.js:203:12
+237 error     at saved (/Users/zaynsagar/.nvm/v0.10.31/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+237 error     at Object.oncomplete (fs.js:107:15)
+238 error If you need help, you may report this *entire* log,
+238 error including the npm and node versions, at:
+238 error     <http://github.com/npm/npm/issues>
+239 error System Darwin 18.2.0
+240 error command "/Users/zaynsagar/.nvm/v0.10.31/bin/node" "/Users/zaynsagar/.nvm/v0.10.31/bin/npm" "install" "mdbootstrap"
+241 error cwd /Users/zaynsagar/the_odin_project/stockvalue/fv/fv/app/workers
+242 error node -v v0.10.31
+243 error npm -v 1.4.23
+244 error code E405
+245 verbose exit [ 1, true ]

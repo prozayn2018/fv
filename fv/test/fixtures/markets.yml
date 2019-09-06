@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  current_price: MyString
+  integer: MyString
+  fair_value: 1
+  discount_value: 1
+  YTD_change: 1
+
+two:
+  name: MyString
+  current_price: MyString
+  integer: MyString
+  fair_value: 1
+  discount_value: 1
+  YTD_change: 1
