@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Stockvalue is an app to help fundamental investors gain an insight into what a fairvalue price for a particular stock in the S&P 500 is. The fairvalue price is a pricing model that I have developed (to my best of knowledge) using Warren Buffett's very own model for accounting for a stock's fairvalue vs what is its current trading price in the market. 
 
-Things you may want to cover:
+App features:
 
-* Ruby version
+* Fundamental data for companies in the S&P 500. 
 
-* System dependencies
+* Graph to see the historical price of a stock. 
 
-* Configuration
+* Add a stock to a watchlist 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Search functionality 
